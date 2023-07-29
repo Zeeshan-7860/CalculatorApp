@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Sienna"
+    android:orientation="horizontal">
+
+    <!--For image src we have used ic_launcher
+        and for text "GeeksForGeeks" and "gfg"
+        they are used only for reference how it will looks"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/androidVersionName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="95dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:backgroundTint="@color/SaddleBrown"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Remove"-->
+<!--            android:id="@+id/erase"-->
+<!--            android:layout_marginLeft="190dp"-->
+<!--            android:layout_marginTop="-38dp"/>-->
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:backgroundTint="@color/SaddleBrown"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Edit"-->
+<!--            android:id="@+id/btn"-->
+<!--            android:layout_marginLeft="300dp"-->
+<!--            android:layout_marginTop="-48dp"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>
